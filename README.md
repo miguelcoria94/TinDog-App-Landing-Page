@@ -2,4 +2,4 @@
 
 app landing page
 
-https://miguelcoria94.github.io/TinDog/
+https://miguelcoria94.github.io/TinDog-App-Landing-Page/
