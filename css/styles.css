@@ -1,9 +1,10 @@
 body {
-    font-family: Montserrat;
+    font-family: "Montserrat";
 }
 
 #title {
     background-color: #ff4c68;
+    color: white;
 }
 
 .container-fluid {
@@ -11,9 +12,26 @@ body {
 }
 
 h1 {
-    color: white;
     font-family: Montserrat;
     font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    padding-bottom: 4.5rem;;
+}
+
+
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size:  2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
 }
