@@ -6,7 +6,7 @@ body {
 
 #title {
     color: white;
-    background: linear-gradient(-45deg, #FD297B, #FF5864, #FF655B);
+    background: linear-gradient(-45deg, #FD297B, #FF5864, #FF655B, #f1847e);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
