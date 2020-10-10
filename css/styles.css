@@ -2,9 +2,25 @@ body {
     font-family: "Montserrat";
 }
 
+
+
 #title {
-    background-color: #ff4c68;
     color: white;
+    background: linear-gradient(-45deg, #FD297B, #FF5864, #FF655B);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .container-fluid {
@@ -73,4 +89,13 @@ p {
 .feature-box {
     text-align: center;
     padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
 }
