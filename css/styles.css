@@ -47,3 +47,9 @@ h1 {
 .download-button {
     margin: 5% 3% 5% 0
 }
+
+/* title image */
+
+.title-image {
+    width: 60%;
+}
