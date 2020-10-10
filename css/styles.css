@@ -83,6 +83,7 @@ p {
 /* title image */
 
 .title-image {
+    position: absolute;
     width: 60%;
     transform: rotate(25deg);
 }
@@ -90,7 +91,10 @@ p {
 /* feature */
 
 #features {
+    z-index: 1;
+    position: relative;
     padding: 7% 15%;
+    background-color: white;
 }
 
 .feature-box {
@@ -109,7 +113,6 @@ p {
 
 /* testimonials */
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -130,4 +133,18 @@ p {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
 }
