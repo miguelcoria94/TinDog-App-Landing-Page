@@ -41,3 +41,9 @@ h1 {
     font-family: "Montserrat";
     font-weight: 300;
 }
+
+/* Download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0
+}
